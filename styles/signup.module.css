@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #581717;
+}
+
+.container p {
+  font-size: 1rem;
+}
+
+.login {
+  height: 30rem;
+  width: 35rem;
+  border-radius: 10px;
+  background: #581717;
+  border: 2px solid #dee4c5;
+  color: #dee4c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.login h3 {
+  font-size: 0.9rem;
+}
+
+.titletxt {
+  font-size: 2rem;
+}
+
+.signin {
+  border: 80px;
+  background: none;
+  color: #0000ff;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button {
+  width: 28rem;
+  height: 3rem;
+  border-radius: 10px;
+  background: #dee4c5;
+  color: #581717;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #581717;
+}
+
+.button:hover {
+  transform: scale(105%);
+  transition: all 0.3s ease-in;
+}

@@ -1,6 +1,6 @@
 .input {
     width: 28rem;
-    height: 50px;
+    height: 10rem;
     border: 2px solid #dee4c5;
     border-radius: 10px;
     background-color: #581717;
@@ -11,7 +11,7 @@
 .input:hover {
     transform: scale(102%);
     transition: all 0.3s ease-in;
-}                      
+}
 
 .input:focus {
     border: 2px solid #581717;
@@ -21,4 +21,4 @@
 .input::placeholder {
     color: #dee4c5;
     font-size: 15px;
-  }
+}

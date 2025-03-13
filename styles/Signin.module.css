@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #581717;
+}
+
+.perfil {
+    height: 90vh;
+    width: 70vh;
+    border-radius: 10px;
+    background: #581717;
+    color: #dee4c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    border: 2px solid #dee4c5;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.image img {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 100%;
+}
+
+.image p {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}

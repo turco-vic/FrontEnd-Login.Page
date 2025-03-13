@@ -1,0 +1,28 @@
+.card {
+    background-color: #dee4c5;
+    border: 2px solid #dee4c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 17%;
+    width: 85%;
+    border-radius: 10px;
+    word-spacing: 0.25rem;
+    text-align: justify;
+}
+
+.card h1 {
+    color: #581717;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card p {
+    color: #581717;
+    font-size: 0.7rem;
+    font-weight: bold;
+    max-width: 95%;
+    text-align: center;
+}
