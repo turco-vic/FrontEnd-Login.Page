@@ -1,0 +1,85 @@
+.container {   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.button {
+  font-size: 20px;
+  text-align: center;
+}
+
+.button button{
+  cursor: pointer;
+  width: 450px;
+  height: 50px;
+  border: 1px solid rgb(10,6,89);
+  border-radius: 10px;
+  background: rgb(10,6,89);
+  background: linear-gradient(90deg, rgb(15, 10, 107) 0%, rgba(21,21,147,1) 35%, rgba(55,55,182,1) 57%, rgba(0,212,255,1) 100%);
+  color: rgb(255, 255, 255);
+}
+
+.button button:hover{
+  transform: scale(101%);
+  transition: all 0.3s ease-in;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem; 
+}
+
+.b1 {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: rgba(0,212,255,1);
+  opacity: 0.6;
+  top: 2%;
+  right: 3%;
+}
+
+.b2 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgba(55,55,182,1);
+  opacity: 0.6;
+  top: 35%;
+  right: 15%;
+}
+
+.b3 {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: rgb(118, 113, 201);
+  opacity: 0.5;
+  top: 30%;
+  right: 65%;
+}
+
+.b4 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgb(107, 183, 245);
+  opacity: 0.5;
+  top: 20%;
+  right: 75%;
+}
