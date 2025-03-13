@@ -6,18 +6,18 @@ export default function login() {
     <div className={styles.container}>
       <div className={styles.form}>
         <div className={styles.text}>
-          <h1>Login</h1>
+          <h1>Welcome!</h1>
         </div>
         <div className={styles.inputstxt}>
           <Input text="Username" />
-          <Input text="Password" />
+          <Input id="password" text="Password" />
         </div>
         <div className={styles.check}>
           <div className={styles.buttons}>
             <button>Login</button>
           </div>
           <div className={styles.buttons}>
-            <button>Cadastro</button>
+            <button>Sign Up</button>
           </div>
         </div>
       </div>
