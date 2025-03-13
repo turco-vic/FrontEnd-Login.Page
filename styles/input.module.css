@@ -1,14 +1,24 @@
 .input {
     width: 28rem;
     height: 50px;
-    border: 1px solid rgb(83, 83, 83);
+    border: 2px solid #dee4c5;
     border-radius: 10px;
-    background-color: rgb(83, 83, 83);
-    color: #fff;
+    background-color: #581717;
+    padding: 10px;
+    color: #dee4c5;
 }
 
 .input:hover {
     transform: scale(101%);
     transition: all 0.3s ease-in;
 }                      
-         
+
+.input:focus {
+    border: 2px solid #581717;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #dee4c5;
+    font-size: 15px;
+  }
