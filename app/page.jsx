@@ -1,5 +1,7 @@
+"use client";
 import styles from "../styles/login.module.css"
 import Input from "../components/input"
+import { useRouter } from "next/navigation"
 
 export default function login() {
   return (
@@ -10,11 +12,11 @@ export default function login() {
         </div>
         <div className={styles.inputstxt}>
           <Input text="Username" />
-          <Input id="password" text="Password" />
+          <Input id="password" tipo="password" text="Password" />
         </div>
         <div className={styles.check}>
           <div className={styles.buttons}>
-            <button>Login</button>
+            <button>Sign In</button>
           </div>
           <div className={styles.buttons}>
             <button>Sign Up</button>
