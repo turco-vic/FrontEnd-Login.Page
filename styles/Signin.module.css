@@ -40,3 +40,17 @@
     display: flex;
     flex-direction: row;
 }
+
+.back h5{
+    display: flex;
+    width: 3rem;
+    height: 32rem;
+    background-color: #dee4c5;
+    margin: 0.5rem;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #581717;
+}
+

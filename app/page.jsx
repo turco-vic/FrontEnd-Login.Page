@@ -1,7 +1,7 @@
 "use client";
-import styles from "../styles/Loginpage.module.css"
-import Input from "../components/input"
-import { useRouter } from "next/navigation"
+import styles from "../styles/Loginpage.module.css";
+import Input from "../components/input";
+import { useRouter } from "next/navigation";
 
 export default function login() {
   const router = useRouter();
@@ -16,7 +16,7 @@ export default function login() {
           <Input id="password" type="password" text="Password" />
         </div>
         <div className={styles.check}>
-          <div className={styles.buttons} >
+          <div className={styles.buttons}>
             <button onClick={() => router.push("/signin")}>Sign In</button>
           </div>
           <div className={styles.buttons}>
@@ -25,5 +25,5 @@ export default function login() {
         </div>
       </div>
     </div>
-  )
+  );
 }
