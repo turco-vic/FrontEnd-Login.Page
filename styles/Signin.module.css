@@ -41,12 +41,11 @@
     flex-direction: row;
 }
 
-.back h5{
+.returnButton {
     display: flex;
-    width: 3rem;
-    height: 32rem;
+    width: 8vh;
+    height: 80vh;
     background-color: #dee4c5;
-    margin: 0.5rem;
     border-radius: 10px 0px 0px 10px;
     cursor: pointer;
     align-items: center;
@@ -54,3 +53,13 @@
     color: #581717;
 }
 
+.return:hover {
+    transform: scale(105%);
+    transition: all 0.3s ease-in;
+}
+
+.h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #581717;
+}

@@ -13,7 +13,7 @@ export default function login() {
         </div>
         <div className={styles.inputstxt}>
           <Input text="Username" />
-          <Input id="password" type="password" text="Password" />
+          <Input id="password" tipo="password" text="Password" />
         </div>
         <div className={styles.check}>
           <div className={styles.buttons}>

@@ -1,10 +1,17 @@
+import Link from 'next/link';
 import styles from '../../styles/Signin.module.css';
 import Card from '../../components/Card';
 
 export default function Initial() {
     return (
         <div className={styles.container}>
-        <div className={styles.back}><h5>return</h5></div>
+            <div className={styles.return}>
+                <Link href="/">
+                    <div className={styles.returnButton}>
+                        <h5>Return</h5>
+                    </div>
+                </Link>
+            </div>
             <div className={styles.perfil}>
                 <div className={styles.image}>
                     <img src="https://avatars.githubusercontent.com/u/157549897?v=4" alt="" />
