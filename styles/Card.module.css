@@ -26,3 +26,9 @@
     max-width: 95%;
     text-align: center;
 }
+
+.card img {
+    height: 5vh;
+    width: 5vh;
+    border-radius: 100%;
+}

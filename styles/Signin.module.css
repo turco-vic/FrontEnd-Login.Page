@@ -51,15 +51,18 @@
     align-items: center;
     justify-content: center;
     color: #581717;
+    margin: 0 0.2rem 0 0;
+    text-decoration: underline;
 }
 
 .return:hover {
     transform: scale(105%);
     transition: all 0.3s ease-in;
+
 }
 
-.h5 {
-    font-size: 1.5rem;
+.returnButton h5 {
+    font-size: 2rem;
     font-weight: bold;
     color: #581717;
 }
